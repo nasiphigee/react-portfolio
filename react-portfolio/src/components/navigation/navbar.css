@@ -1,0 +1,82 @@
+.group-5 {
+    background-color: #d9d9d9;
+    height: 80px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+}
+
+.text-wrapper-43 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 1206px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 29px;
+    white-space: nowrap;
+}
+
+.text-wrapper-44 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 1072px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 31px;
+    white-space: nowrap;
+}
+
+.text-wrapper-45 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 955px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 34px;
+    white-space: nowrap;
+}
+
+.text-wrapper-46 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 795px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 31px;
+    white-space: nowrap;
+}
+
+.text-wrapper-47 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 673px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 31px;
+    white-space: nowrap;
+}
+
+.desktop-wallpaper {
+    height: 80px;
+    left: 124px;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    width: 128px;
+}
