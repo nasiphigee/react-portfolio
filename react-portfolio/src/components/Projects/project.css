@@ -1,0 +1,1290 @@
+.index {
+    background-color: #a1b7b0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .div-2 {
+    background-color: #a1b7b0;
+    height: 5208px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .index .overlap {
+    height: 160px;
+    left: 120px;
+    position: absolute;
+    top: 234px;
+    width: 557px;
+  }
+  
+  .index .hi-i-m-nasiphi-gwija {
+    color: #000000;
+    font-family: "Italiana", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 553px;
+  }
+  
+  .index .span {
+    color: #000000;
+    font-family: "Italiana", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .index .text-wrapper-2 {
+    font-family: "Itim", Helvetica;
+  }
+  
+  .index .rectangle-3 {
+    background-color: #df36eee6;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 38px;
+    width: 50px;
+  }
+  
+  .index .overlap-2 {
+    height: 562px;
+    left: 812px;
+    position: absolute;
+    top: 180px;
+    width: 507px;
+  }
+  
+  .index .rectangle-4 {
+    background-color: #d9d9d9;
+    border-radius: 13px 0px 0px 241px;
+    box-shadow: 0px 4px 30px #df36eed4;
+    height: 532px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 507px;
+  }
+  
+  .index .img {
+    height: 534px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 490px;
+  }
+  
+  .index .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 422px;
+    width: 614px;
+  }
+  
+  .index .button {
+    all: unset;
+    align-items: flex-start;
+    background-color: #df35eef0;
+    border-radius: 9px;
+    box-shadow: 1px 11px 32px #9747ff;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 87px;
+    justify-content: center;
+    left: 120px;
+    overflow: hidden;
+    padding: 35px 35px 36px;
+    position: absolute;
+    top: 588px;
+    width: 244px;
+  }
+  
+  .index .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -12px;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .index .button-2 {
+    all: unset;
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #df36eef0;
+    border-radius: 9px;
+    box-shadow: 1px 11px 33px #9747ff;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 87px;
+    justify-content: center;
+    left: 409px;
+    overflow: hidden;
+    padding: 35px 35px 36px;
+    position: absolute;
+    top: 588px;
+    width: 244px;
+  }
+  
+  .index .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -13px;
+    margin-left: -5px;
+    margin-right: -5px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .index .about {
+    height: 863px;
+    left: 117px;
+    position: absolute;
+    top: 1080px;
+    width: 1206px;
+  }
+  
+  .index .text-wrapper-6 {
+    color: #000000;
+    font-family: "Itim", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 528px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-7 {
+    color: #000000;
+    font-family: "Itim", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 412px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 68px;
+  }
+  
+  .index .full-stack-dev {
+    color: #000000;
+    font-family: "Moul", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 688px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 350px;
+    width: 270px;
+  }
+  
+  .index .text-wrapper-8 {
+    color: #000000;
+    font-family: "Moul", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .index .text-wrapper-9 {
+    font-family: "Mukta", Helvetica;
+  }
+  
+  .index .rectangle-5 {
+    background-color: #df36eef0;
+    height: 7px;
+    left: 507px;
+    position: absolute;
+    top: 57px;
+    width: 42px;
+  }
+  
+  .index .text-wrapper-10 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 460px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 544px;
+  }
+  
+  .index .text-wrapper-11 {
+    color: #000000;
+    font-family: "Moul", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 433px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 570px;
+  }
+  
+  .index .i-m-a-software {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 404px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 110px;
+    width: 468px;
+  }
+  
+  .index .text-wrapper-12 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 730px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 320px;
+  }
+  
+  .index .text-wrapper-13 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 460px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 325px;
+  }
+  
+  .index .bx-calendar-svg {
+    height: 24px;
+    left: 427px;
+    position: absolute;
+    top: 323px;
+    width: 24px;
+  }
+  
+  .index .bsc-in-IT-richfield {
+    color: #000000;
+    font-family: "Moul", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 421px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 357px;
+    width: 206px;
+  }
+  
+  .index .text-wrapper-14 {
+    color: #000000;
+    font-family: "Moul", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .index .text-wrapper-15 {
+    font-family: "Mukta", Helvetica;
+    font-size: 15px;
+  }
+  
+  .index .text-wrapper-16 {
+    font-size: 15px;
+  }
+  
+  .index .overlap-3 {
+    height: 210px;
+    left: 401px;
+    position: absolute;
+    top: 326px;
+    width: 20px;
+  }
+  
+  .index .line {
+    height: 191px;
+    left: 9px;
+    object-fit: cover;
+    position: absolute;
+    top: 19px;
+    width: 2px;
+  }
+  
+  .index .ellipse {
+    background-color: #df35eef0;
+    border-radius: 10px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+  
+  .index .ellipse-2 {
+    background-color: #df35eef0;
+    border-radius: 10px;
+    height: 20px;
+    left: 668px;
+    position: absolute;
+    top: 324px;
+    width: 20px;
+  }
+  
+  .index .bx-calendar-svg-2 {
+    height: 24px;
+    left: 697px;
+    position: absolute;
+    top: 320px;
+    width: 24px;
+  }
+  
+  .index .bx-calendar-svg-3 {
+    height: 24px;
+    left: 424px;
+    position: absolute;
+    top: 546px;
+    width: 24px;
+  }
+  
+  .index .line-2 {
+    height: 191px;
+    left: 678px;
+    object-fit: cover;
+    position: absolute;
+    top: 345px;
+    width: 1px;
+  }
+  
+  .index .ellipse-3 {
+    height: 20px;
+    left: 668px;
+    position: absolute;
+    top: 540px;
+    width: 20px;
+  }
+  
+  .index .bx-calendar-svg-4 {
+    height: 24px;
+    left: 697px;
+    position: absolute;
+    top: 538px;
+    width: 24px;
+  }
+  
+  .index .text-wrapper-17 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 730px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 536px;
+  }
+  
+  .index .line-3 {
+    height: 246px;
+    left: 678px;
+    object-fit: cover;
+    position: absolute;
+    top: 567px;
+    width: 1px;
+  }
+  
+  .index .text-wrapper-18 {
+    color: #000000;
+    font-family: "Moul", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 700px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 566px;
+    width: 284px;
+  }
+  
+  .index .this-educational {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 421px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 608px;
+    width: 253px;
+  }
+  
+  .index .in-my-current-role-i {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 688px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 625px;
+    width: 317px;
+  }
+  
+  .index .line-4 {
+    height: 243px;
+    left: 410px;
+    position: absolute;
+    top: 570px;
+    width: 2px;
+  }
+  
+  .index .ellipse-4 {
+    height: 20px;
+    left: 401px;
+    position: absolute;
+    top: 546px;
+    width: 20px;
+  }
+  
+  .index .rectangle-6 {
+    height: 310px;
+    left: 603px;
+    position: absolute;
+    top: -469px;
+    width: 368px;
+  }
+  
+  .index .overlap-group-3 {
+    height: 413px;
+    left: 10px;
+    position: absolute;
+    top: 84px;
+    width: 358px;
+  }
+  
+  .index .rectangle-7 {
+    background-color: #d9d9d9;
+    border-radius: 13px 0px 0px 241px;
+    box-shadow: 0px 4px 30px #df36eed4;
+    height: 413px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 357px;
+  }
+  
+  .index .rectangle-8 {
+    height: 394px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 18px;
+    width: 352px;
+  }
+  
+  .index .rectangle-9 {
+    height: 7px;
+    left: 664px;
+    position: absolute;
+    top: 2158px;
+    width: 50px;
+  }
+  
+  .index .back-end {
+    height: 16px;
+    left: 528px;
+    position: absolute;
+    top: 2258px;
+    width: 113px;
+  }
+  
+  .index .front-end {
+    height: 16px;
+    left: 1015px;
+    position: absolute;
+    top: 2259px;
+    width: 118px;
+  }
+  
+  .index .overlap-4 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c33566a111d9ebe1d3014f/img/ellipse-5.svg);
+    background-size: 100% 100%;
+    height: 70px;
+    left: 1027px;
+    position: absolute;
+    top: 2308px;
+    width: 70px;
+  }
+  
+  .index .ellipse-5 {
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+  }
+  
+  .index .text-wrapper-19 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 53px;
+  }
+  
+  .index .overlap-5 {
+    height: 70px;
+    left: 1039px;
+    position: absolute;
+    top: 2420px;
+    width: 73px;
+  }
+  
+  .index .text-wrapper-20 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 54px;
+  }
+  
+  .index .overlap-6 {
+    height: 98px;
+    left: 1048px;
+    position: absolute;
+    top: 2613px;
+    width: 91px;
+  }
+  
+  .index .group-3 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c33566a111d9ebe1d3014f/img/ellipse-9.svg);
+    background-size: 100% 100%;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+  }
+  
+  .index .group-4 {
+    height: 70px;
+    left: 19px;
+    position: absolute;
+    top: 28px;
+    width: 72px;
+  }
+  
+  .index .text-wrapper-21 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 70px;
+  }
+  
+  .index .overlap-7 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c33566a111d9ebe1d3014f/img/ellipse-13.svg);
+    background-size: 100% 100%;
+    height: 70px;
+    left: 1046px;
+    position: absolute;
+    top: 2517px;
+    width: 70px;
+  }
+  
+  .index .text-wrapper-22 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 51px;
+  }
+  
+  .index .text-wrapper-23 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2354px;
+    width: 58px;
+  }
+  
+  .index .text-wrapper-24 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2451px;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-25 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2553px;
+    width: 126px;
+  }
+  
+  .index .text-wrapper-26 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2655px;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-27 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 1238px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2332px;
+    width: 104px;
+  }
+  
+  .index .text-wrapper-28 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 1238px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2435px;
+    width: 63px;
+  }
+  
+  .index .text-wrapper-29 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 1249px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2643px;
+    width: 104px;
+  }
+  
+  .index .text-wrapper-30 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 1248px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2544px;
+    width: 35px;
+  }
+  
+  .index .rectangle-19 {
+    left: 333px !important;
+    position: absolute !important;
+    top: 2644px !important;
+    width: 567px !important;
+  }
+  
+  .index .rectangle-instance {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c4707b32fd0f09288b42a4/img/rectangle-19-3.svg) !important;
+    width: 607px !important;
+  }
+  
+  .index .rectangle-19-instance {
+    left: 279px !important;
+  }
+  
+  .index .text-wrapper-31 {
+    color: #000000;
+    font-family: "Itim", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 668px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2859px;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-32 {
+    color: #000000;
+    font-family: "Itim", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 665px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4120px;
+    white-space: nowrap;
+    width: 250px;
+  }
+  
+  .index .rectangle-10 {
+    background-color: #df35eef0;
+    height: 8px;
+    left: 665px;
+    position: absolute;
+    top: 4164px;
+    width: 69px;
+  }
+  
+  .index .text-wrapper-33 {
+    color: #df35eef0;
+    font-family: "Itim", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 555px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4193px;
+    width: 464px;
+  }
+  
+  .index .overlap-8 {
+    height: 51px;
+    left: 121px;
+    position: absolute;
+    top: 4252px;
+    width: 63px;
+  }
+  
+  .index .vector {
+    height: 11px;
+    left: 17px;
+    position: absolute;
+    top: 13px;
+    width: 29px;
+  }
+  
+  .index .vector-2 {
+    height: 51px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 63px;
+  }
+  
+  .index .overlap-9 {
+    height: 42px;
+    left: 604px;
+    position: absolute;
+    top: 4251px;
+    width: 42px;
+  }
+  
+  .index .vector-3 {
+    height: 17px;
+    left: 12px;
+    position: absolute;
+    top: 11px;
+    width: 20px;
+  }
+  
+  .index .vector-4 {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 42px;
+  }
+  
+  .index .overlap-10 {
+    height: 43px;
+    left: 1053px;
+    position: absolute;
+    top: 4252px;
+    width: 49px;
+  }
+  
+  .index .vector-5 {
+    height: 21px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 29px;
+  }
+  
+  .index .vector-6 {
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 49px;
+  }
+  
+  .index .text-wrapper-34 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 202px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4267px;
+    width: 239px;
+  }
+  
+  .index .text-wrapper-35 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 676px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4268px;
+    width: 109px;
+  }
+  
+  .index .text-wrapper-36 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4270px;
+    width: 219px;
+  }
+  
+  .index .overlap-11 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c33566a111d9ebe1d3014f/img/rectangle-17.svg);
+    background-size: 100% 100%;
+    height: 57px;
+    left: 520px;
+    position: absolute;
+    top: 4356px;
+    width: 414px;
+  }
+  
+  .index .text-wrapper-37 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 183px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+    width: 72px;
+  }
+  
+  .index .overlap-12 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c33566a111d9ebe1d3014f/img/rectangle-18.svg);
+    background-size: 100% 100%;
+    height: 56px;
+    left: 520px;
+    position: absolute;
+    top: 4445px;
+    width: 414px;
+  }
+  
+  .index .text-wrapper-38 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 184px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    width: 66px;
+  }
+  
+  .index .overlap-13 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c33566a111d9ebe1d3014f/img/rectangle-19-2.svg);
+    background-size: 100% 100%;
+    height: 78px;
+    left: 530px;
+    position: absolute;
+    top: 4528px;
+    width: 407px;
+  }
+  
+  .index .text-wrapper-39 {
+    color: #000000;
+    font-family: "Mukta", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 175px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    width: 108px;
+  }
+  
+  .index .vector-7 {
+    height: 47px;
+    left: 731px;
+    position: absolute;
+    top: 4609px;
+    width: 50px;
+  }
+  
+  .index .line-5 {
+    height: 1px;
+    left: 121px;
+    position: absolute;
+    top: 4729px;
+    width: 479px;
+  }
+  
+  .index .line-6 {
+    height: 3px;
+    left: 882px;
+    object-fit: cover;
+    position: absolute;
+    top: 4728px;
+    width: 440px;
+  }
+  
+  .index .vector-8 {
+    height: 52px;
+    left: 658px;
+    position: absolute;
+    top: 4694px;
+    width: 52px;
+  }
+  
+  .index .vector-9 {
+    height: 52px;
+    left: 738px;
+    position: absolute;
+    top: 4694px;
+    width: 54px;
+  }
+  
+  .index .vector-10 {
+    height: 52px;
+    left: 820px;
+    position: absolute;
+    top: 4694px;
+    width: 51px;
+  }
+  
+  .index .text-wrapper-40 {
+    color: #000000;
+    font-family: "Itim", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 602px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4772px;
+    width: 385px;
+  }
+  
+  .index .rectangle-11 {
+    background-color: #df35eef0;
+    height: 8px;
+    left: 661px;
+    position: absolute;
+    top: 2908px;
+    width: 69px;
+  }
+  
+  .index .text-wrapper-41 {
+    color: #000000;
+    font-family: "Itim", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 668px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2114px;
+    white-space: nowrap;
+  }
+  
+  .index .design-component-instance-node {
+    left: 333px !important;
+    position: absolute !important;
+    top: 2427px !important;
+    width: 567px !important;
+  }
+  
+  .index .rectangle-12 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c4707b32fd0f09288b42a4/img/rectangle-19-4.svg) !important;
+    width: 607px !important;
+  }
+  
+  .index .rectangle-13 {
+    left: 333px !important;
+    position: absolute !important;
+    top: 2539px !important;
+    width: 567px !important;
+  }
+  
+  .index .rectangle-14 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c4707b32fd0f09288b42a4/img/rectangle-19-5.svg) !important;
+    width: 607px !important;
+  }
+  
+  .index .rectangle-15 {
+    left: 333px !important;
+    position: absolute !important;
+    top: 2323px !important;
+    width: 567px !important;
+  }
+  
+  .index .rectangle-16 {
+    background-image: url(https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c4707b32fd0f09288b42a4/img/rectangle-19-6.svg) !important;
+    width: 607px !important;
+  }
+  
+  .index .rectangle-25 {
+    left: 120px !important;
+    position: absolute !important;
+    top: 3039px !important;
+  }
+  
+  .index .calculator-1 {
+    height: 257px !important;
+    left: 739px !important;
+    position: absolute !important;
+    top: 3039px !important;
+    width: 603px !important;
+  }
+  
+  .index .taxcal-1 {
+    height: 261px !important;
+    left: 102px !important;
+    position: absolute !important;
+    top: 3371px !important;
+    width: 537px !important;
+  }
+  
+  .index .fnb-banking-2 {
+    height: 261px !important;
+    left: 739px !important;
+    position: absolute !important;
+    top: 3371px !important;
+    width: 603px !important;
+  }
+  
+  .index .button-3 {
+    all: unset;
+    align-items: flex-start;
+    background-color: #df35eef0;
+    border-radius: 9px;
+    box-shadow: 1px 11px 32px #9747ff;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 87px;
+    justify-content: center;
+    left: 560px;
+    overflow: hidden;
+    padding: 35px 35px 36px;
+    position: absolute;
+    top: 3726px;
+    width: 244px;
+  }
+  
+  .index .text-wrapper-42 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 53px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -36px;
+    margin-top: -1px;
+    position: relative;
+    width: 96px;
+  }
+  
+  .index .vector-11 {
+    height: 52px;
+    left: 600px;
+    position: absolute;
+    top: 3842px;
+    width: 52px;
+  }
+  
+  .index .vector-12 {
+    height: 52px;
+    left: 704px;
+    position: absolute;
+    top: 3842px;
+    width: 54px;
+  }
+  
+  .index .group-5 {
+    background-color: #d9d9d9;
+    height: 80px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .index .text-wrapper-43 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 1206px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 29px;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-44 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 1072px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 31px;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-45 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 955px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 34px;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-46 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 795px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 31px;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-47 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 673px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 31px;
+    white-space: nowrap;
+  }
+  
+  .index .desktop-wallpaper {
+    height: 80px;
+    left: 124px;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    width: 128px;
+  }
+  

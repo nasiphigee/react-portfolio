@@ -1,0 +1,168 @@
+.home .div-2 {
+  background-color: #a1b7b0;
+  height: 751px;
+  position: center;
+  width: 1338px;
+  margin-top: 48px;
+}
+
+.home .overlap {
+  height: 160px;
+  left: 120px;
+  position: absolute;
+  top: 234px;
+  width: 557px;
+}
+
+.home .hi-i-m-nasiphi-gwija {
+  color: #000000;
+  font-family: "Italiana", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 553px;
+  margin-top: -68px;
+}
+
+.home .span {
+  color: #000000;
+  font-family: "Italiana", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.home .text-wrapper-2 {
+  font-family: "Itim", Helvetica;
+}
+
+.home .rectangle-3 {
+  background-color: #df36eee6;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 38px;
+  width: 50px;
+}
+
+.home .overlap-2 {
+  height: 562px;
+  left: 812px;
+  position: absolute;
+  top: 228px;;
+  width: 507px;
+  width: 469px;
+  margin-top: -87px;
+}
+
+.home .rectangle-4 {
+  background-color: #d9d9d9;
+  border-radius: 13px 0px 0px 241px;
+  box-shadow: 0px 4px 30px #df36eed4;
+  height: 532px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 369px;
+}
+
+.home .img {
+  height: 534px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 28px;
+  width: 380px;
+}
+
+.home .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 328px;
+  width: 614px;
+}
+
+.home .button {
+  all: unset;
+  align-items: flex-start;
+  background-color: #df35eef0;
+  border-radius: 9px;
+  box-shadow: 1px 11px 32px #9747ff;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  height: 87px;
+  justify-content: center;
+  left: 120px;
+  overflow: hidden;
+  padding: 35px 35px 36px;
+  position: absolute;
+  top: 496px;
+  width: 244px;
+}
+
+.home .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -12px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.home .button-2 {
+  all: unset;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #df36eef0;
+  border-radius: 9px;
+  box-shadow: 1px 11px 33px #9747ff;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  height: 87px;
+  justify-content: center;
+  left: 409px;
+  overflow: hidden;
+  padding: 35px 35px 36px;
+  position: absolute;
+  top: 496px;
+  width: 244px;
+}
+
+.home .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -13px;
+  margin-left: -5px;
+  margin-right: -5px;
+  position: relative;
+  width: fit-content;
+}
+
+.home .about {
+  height: 863px;
+  left: 117px;
+  position: absolute;
+  top: 1080px;
+  width: 1206px;
+}
