@@ -1,67 +1,66 @@
 .about {
-    background-color: #a1b7b0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 95%;
-    margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #a1b7b0;
+  width: 95%;
+  margin-top: 35px;
+  padding: 20px;
+}
+.overlap-2{
+  margin-right: 117px;
 }
 
-.about .overlap-2 {
-    height: 300px;
-    right: 812px;
-    position: absolute;
-    width: 300px;
-    margin-top: -87px;
-  }
-  
-  .about .rectangle-4 {
-    background-color: #d9d9d9;
-    border-radius: 13px 0px 0px 241px;
-    box-shadow: 0px 4px 30px #df36eed4;
-    height: 270px;
-    right: 0;
-    position: absolute;
-    top: 0;
-    width: 230px;
-  }
-  
-  .about .img {
-    height: 250px;
-    right: 0;
-    object-fit: cover;
-    position: absolute;
-    width: 250px;
-  }
 
-.about .text-wrapper-3 {
-    color: #000000;
-    font-family: "Inter", Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    left: 120px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 400px;
-    width: 600px;
+.rectangle-4 {
+  background-color: #d9d9d9;
+  border-radius: 4px 0px 0px 234px;
+  box-shadow: 0px 4px 30px #df36eed4;
+  height: 351px;
+  width: 377px;
+  margin-top: 89px;
+  margin-left: 0px;
 }
 
-.about .button {
-    all: unset;
-    align-items: flex-start;
-    background-color: #df35eef0;
-    border-radius: 9px;
-    box-shadow: 1px 11px 32px #9747ff;
-    box-sizing: border-box;
-    display: flex;
-    gap: 10px;
-    height: 87px;
-    justify-content: center;
-    left: 120px;
-    overflow: hidden;
-    padding: 35px 35px 36px;
-    position: absolute;
-    top: 588px;
-    width: 244px;
+.img {
+  height: 50vh;
+  margin-top: -45px;
+  margin-left: 78px;
+  border-radius: 0px 97px 34px;
+}
+
+.overlap-2 {
+  width: 60%;
+  /* Adjust as needed */
+}
+
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #040404;
+}
+
+.resume-item {
+  padding: 20px;
+  margin-top: 10px;
+  border-left: 2px solid #df36eee6;
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.education-experience {
+  display: flex;
+  justify-content: space-between;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #d43076;
 }
