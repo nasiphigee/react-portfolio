@@ -1,50 +1,92 @@
-.skills {
+/* skills.css */
+
+body {
   background-color: #a1b7b0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 95%;
-  margin-top: 35px;
-  padding: 20px;
+  height: 100vh;
 }
 
 .skills-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  max-width: 800px; /* Adjust max-width based on your design */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Linear Progress Bars - Right Side */
+.col-lg-6.order-lg-last {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .progress {
-  width: 100%;
   margin-bottom: 20px;
 }
 
-.progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #2c4964;
+.skill {
+  font-weight: 700;
+  color: #333; /* Set text color for visibility */
 }
 
-.progress .skill .val {
+.val {
   float: right;
-  font-style: normal;
-  color: black;
-  /* Adjusted color for value */
 }
 
 .progress-bar-wrap {
-  background: #fbeaf1;
-  border-radius: 4px;
-  overflow: hidden;
+  background: #eee;
+  padding: 3px;
 }
 
 .progress-bar {
-  height: 30px;
-  transition: width 0.9s;
-  background-color: #df36eee6;
+  width: 0;
+  background: #007bff;
+  text-align: center;
+  transition: width 0.7s ease;
+}
+
+/* Circular Progress Bars - Left Side */
+.col-lg-6.order-lg-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.circular-progress-container {
+  position: relative;
+  width: 160px; /* Adjust size based on your design */
+  height: 160px; /* Adjust size based on your design */
+  margin-bottom: 20px;
+}
+
+.circular-progress-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+.number {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Customize each circular progress bar based on skill */
+.python-progress-container svg circle {
+  stroke: url(#pythonGradientColor);
+}
+
+.java-progress-container svg circle {
+  stroke: url(#javaGradientColor);
+}
+
+.c-sharp-progress-container svg circle {
+  stroke: url(#csharpGradientColor);
+}
+
+.node-js-progress-container svg circle {
+  stroke: url(#nodejsGradientColor);
 }
