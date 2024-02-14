@@ -20,8 +20,8 @@ export const Home = () => {
                 <div className="overlap-2">
                     <div className="rectangle-4" />
                     <img
-                        className="img"
-                        alt="Rectangle"
+                        className="home-img"
+                        alt="Nasiphi"
                         src="https://cdn.animaapp.com/projects/65c334fcf4d3256a5645b298/releases/65c33566a111d9ebe1d3014f/img/rectangle-7.png"
                     />
                 </div>

@@ -4,9 +4,9 @@ import "./about.css";
 const About = () => {
   return (
     <div className="about">
-      <div className="rectangle-4">
+      <div className="img-container">
         <img
-          className="img"
+          className="img-about"
           alt="Nasiphi"
           src="./src/assets/images/AboutMe.png"
         />
