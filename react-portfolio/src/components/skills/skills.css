@@ -1,0 +1,14 @@
+/* CSS code */
+.skills-container {
+    background-color: #a1b7b0;
+    height: 751px;
+    position: center;
+    width: 1338px;
+    margin-top: 48px;
+  }
+.skills-container h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #040404;
+    padding-left: 470px;
+}
