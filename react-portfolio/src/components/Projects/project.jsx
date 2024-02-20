@@ -3,6 +3,8 @@ import './project.css';
 
 const Projects = () => {
   return (
+    <div>
+    <h1 className="projects-heading">My Projects</h1>
     <div className="projects-container">
       <div className="card">
         <div className="card-inner">
@@ -19,6 +21,12 @@ const Projects = () => {
             <p>
               This website sells men's cloth products and helps men look their best.
               </p>
+              <a href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://discord.gg/your-discord-invite" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-discord"></i> Discord
+                  </a>
           </div>
         </div>
       </div>
@@ -28,7 +36,7 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="src/assets/images/banking.png"
+              src="src/assets/images/FirstKnight.png"
               alt="Project Image"
             />
           </div>
@@ -47,7 +55,7 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="src/assets/images/alculator.jpg"
+              src="src/assets/images/Portfolio.png"
               alt="Project Image"
             />
           </div>
@@ -73,7 +81,7 @@ const Projects = () => {
           {/* Back Side */}
           <div className="card-back">
             <p>
-              This website sells men's cloth products and helps men look their best.
+            Carrer guide website that was build using HTML,Css, JavaScript and Node JS for back end.
               </p>
           </div>
         </div>
@@ -83,7 +91,7 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="C:/Users/Nasiphi Ngcobozi/Documents/react-portfolio/react-portfolio/src/assets/images/5Stars.PNG"
+              src="src/assets/images/bank.jpeg"
               alt="Project Image"
             />
           </div>
@@ -101,7 +109,7 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="C:/Users/Nasiphi Ngcobozi/Documents/react-portfolio/react-portfolio/src/assets/images/5Stars.PNG"
+              src="src/assets/images/conveter.jpeg"
               alt="Project Image"
             />
           </div>
@@ -114,6 +122,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+
 .projects-container {
   display: flex;
   flex-wrap: wrap;
@@ -8,13 +9,31 @@
   margin-top: 48px;
   width: 1338px;
 }
+.projects-heading {
+  font-size: 26px;
+    font-weight: 700;
+    color: #040404;
+    padding-left: 470px; /* Adjust as needed */
+}
+
+.projects-heading::after {
+  content: "";
+  display: block;
+  width: 50px; /* Adjust the width of the line */
+  height: 5px; /* Adjust the thickness of the line */
+  background-color: #df36eee6; /* Pink color */
+  margin: 0 auto; /* Center the line under the heading */
+  margin-top: 5px; 
+  left: 0;
+  margin-left: 70px;/* Adjust the distance between the text and the line */
+}
 
 .card {
   width: calc(33.333% - 20px);
   height: 250px;
   perspective: 1000px;
   margin-bottom: 20px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .card-inner {
@@ -60,6 +79,20 @@
   font-size: 18px;
   padding: 20px;
   transform: rotateY(180deg);
+}
+.card-links {
+  margin-top: 15px; /* Adjust as needed */
+}
+
+.card-links a {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between links */
+  color: #007bff; /* Blue color for links, adjust as needed */
+  text-decoration: none;
+}
+
+.card-links a:hover {
+  text-decoration: underline; /* Underline on hover */
 }
 
 @media (max-width: 960px) {
