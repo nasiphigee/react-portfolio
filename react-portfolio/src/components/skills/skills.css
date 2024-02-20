@@ -1,71 +1,58 @@
-/* CSS code */
-.skills-container {
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif; /* Change to your preferred font */
+}
+
+/* Container styles */
+.skill {
   display: flex;
   justify-content: space-between;
   background-color: #a1b7b0;
   height: 1000px;
-  position: center;
   width: 1338px;
   margin-top: 48px;
-  }
-.skills-container h1 {
-    font-size: 26px;
-    font-weight: 700;
-    color: #040404;
-    padding-left: 470px;
+  padding: 20px;
 }
-.progressbar {
-  /* Size */
-  width: 450px;
-  height: 75px;
 
-  /* Content alignment */
+/* Progress Bar styles */
+.ms-progress-bar {
+  width: 10px;
+}
+
+.ms-progress-bar .ms-bar {
+  width: 0;
+  animation: fillAnimation 2s ease forwards;
+}
+
+/* Loader styles */
+/* Loader styles */
+.loader {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
-
-  /* Style */
-  border-radius: 60px;
-  background-color: #494b52;
-  box-shadow: 0px 0px 20px #111;
-
-  overflow: hidden;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-.bar {
-  /* Size */
-  width: 0%;
-
-  /* Style */
-  background: rgb(255, 174, 105);
-  background: linear-gradient(
-      180deg,
-      rgba(255, 174, 105, 1) 0%,
-      rgba(255, 173, 102, 1) 32%,
-      rgba(255, 132, 25, 1) 100%
-  );
+.loader div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
-.progressbar-container {
-  /* Content alignment */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.python {
+  background-color: #3572A5; /* Python color */
 }
 
-.progressbar-text-container {
-  /* Size */
-  width: 30px;
-  margin-left: 30px;
+.java {
+  background-color: #B07219; /* Java color */
+}
 
-  /* Content alignment */
-  display: flex;
-  flex-direction: row;
+.csharp {
+  background-color: #178600; /* C# color */
+}
 
-  /* Styling */
-  color: white;
-  font-family: montserrat;
-  font-weight: bold;
-  font-size: 30px;
+.nodejs {
+  background-color: #68A063; /* Node.js color */
 }

@@ -1,71 +1,46 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { motion, animate } from 'framer-motion';
+// skills.jsx
+
+import React from 'react';
+import { ProgressBar } from 'ms-react-progress-bar';
+import 'ms-react-progress-bar/dist/ProgressBar.css';
 import './skills.css';
 
-function Progressbar({ value }) {
-  const progressTextRef = useRef(null);
-
-  useEffect(() => {
-    const progressText = progressTextRef.current?.textContent;
-
-    if (progressText != null) {
-      animate(parseInt(progressText), value, {
-        duration: 2,
-        onUpdate: (cv) => {
-          progressTextRef.current.textContent = cv.toFixed(0);
-        },
-      });
-    }
-  }, [value]);
-
-  return (
-    <div className="progressbar-container">
-      <div className="progressbar">
-        <motion.div
-          className="bar"
-          animate={{
-            width: `${value}%`,
-          }}
-          transition={{
-            duration: 2,
-          }}
-        />
-      </div>
-      <div className="progressbar-text-container">
-        <p ref={progressTextRef}>95</p>
-        <p>%</p>
-      </div>
-    </div>
-  );
-}
-
 function Skills() {
-  const [progressBars, setProgressBars] = useState([
-    Math.random() * 100,
-    Math.random() * 100,
-    Math.random() * 100,
-    Math.random() * 100,
-  ]);
+  const progressBarOptions = {
+    height: '30px',
+    borderRadius: '20px',
+    labelSize: '14px',
+    containerColor: '#dddddd',
+    containerStyle: 'border',
+    stripeAnimation: false,
+  };
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setProgressBars((prevBars) =>
-        prevBars.map(() => Math.random() * 100)
-      );
-    }, 3000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, []);
+  const loaderStyles = {
+    width: '30px',
+    height: '30px',
+    borderRadius: '50%',
+  };
 
   return (
     <div className="skills-container">
-      <h1>My Skills</h1>
-      <div className="progress-bars">
-        {progressBars.map((progress, index) => (
-          <Progressbar key={index} value={progress} />
-        ))}
+      {/* Python Progress Bar */}
+      <ProgressBar value={90} options={{ ...progressBarOptions, barColor: '#3572A5' }} />
+
+      {/* Java Progress Bar */}
+      <ProgressBar value={80} options={{ ...progressBarOptions, barColor: '#B07219' }} />
+
+      {/* C# Progress Bar */}
+      <ProgressBar value={77} options={{ ...progressBarOptions, barColor: '#178600' }} />
+
+      {/* Node.js Progress Bar */}
+      <ProgressBar value={70} options={{ ...progressBarOptions, barColor: '#68A063' }} />
+
+      {/* Loaders */}
+      <div className="loader">
+        <div className="intern python"></div>
+        <div className="intern java"></div>
+        <div className="intern csharp"></div>
+        <div className="intern nodejs"></div>
       </div>
     </div>
   );

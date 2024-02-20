@@ -1,119 +1,16 @@
+
 .contact {
-  background-color: #a1b7b0;
-  height: px;
+  height: 1000px;
   position: center;
   width: 1338px;
-  margin-top: 50px;
-}
-
-.contact-container h1 {
-  font-size: 26px;
-  font-weight: 700;
-  color: #040404;
+  margin-top: 48px;
   text-align: center;
-  margin-bottom: 20px;
-  /* Adjusted for better spacing */
+  max-width: 300px;
+  margin: 20px auto;
 }
 
-/* Titles and subtitles */
-.contact-title {
-  color: var(--skin-color);
-  /* Ensure --skin-color is defined in your CSS or root */
-  text-align: center;
-  font-size: 15px;
-  margin-bottom: 60px;
-}
-
-.contact-sub-title {
-  color: black;
-  /* Ensure --text-black-900 is defined in your CSS or root */
-  text-align: center;
-  font-size: 15px;
-  margin-bottom: 60px;
-}
-
-/* Contact info item styles */
-.contact .contact-info-item {
-  flex: 0 0 25%;
-  max-width: 25%;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.contact .contact-info-item .icon {
-  display: inline-block;
-}
-
-.contact .contact-info-item .icon .fa {
-  font-size: 25px;
-  color: #df36eee6;
-}
-
-.contact .contact-info-item h4 {
-  font-size: 18px;
-  font-weight: 700;
-  color: black;
-  text-transform: capitalize;
-  margin: 15px 0 5px;
-}
-
-.contact .contact-info-item p {
-  font-size: 16px;
-  line-height: 25px;
-  color: black;
-  font-weight: 400;
-}
-
-.contact .contact-form {
-  flex: 0 0 100% max-width: 100%;
-}
-
-.contact .contact-form .form-item {
-  margin-bottom: 30px;
-}
-
-.contact .contact-form .form-item .form-control {
-  width: 50%;
-  height: 50px;
-  border-radius: 25px;
-  background: var(--bg-black-100);
-  /* Ensure --bg-black-100 is defined in your CSS or root */
-  border: 1px solid var(--bg-black-50);
-  /* Ensure --bg-black-50 is defined in your CSS or root */
-  padding: 10px 25px;
-  font-size: 16px;
-  color: var(--text-black-700);
-  /* Ensure --text-black-700 is defined in your CSS or root */
-  transition: all 0.3s ease;
-}
-
-.contact .contact-form .form-item textarea.form-control {
-  height: 140px;
-  /* Textarea height */
-}
-
-.contact .contact-form .btn {
-  height: 50px;
-  padding: 0 50px;
-  border-radius: 25px;
-  /* Added for consistency */
-  background-color: var(--button-color);
-  /* Add or change to your preferred button background */
-  color: #fff;
-  /* Button text color */
-  border: none;
-  /* Removes default border */
-  cursor: pointer;
-  /* Hand cursor on hover */
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  /* Smooth transitions */
-  box-shadow: 0 0 10px rgba(223, 54, 238, 0.83);
-  /* Outer shadow with specified color */
-}
-
-.contact .contact-form .btn:hover {
-  background-color: var(--button-hover-color);
-  /* Darker shade for hover effect */
-  box-shadow: 0 0 15px rgba(223, 54, 238, 0.9);
-  /* Increased shadow on hover */
+Form {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
 }
