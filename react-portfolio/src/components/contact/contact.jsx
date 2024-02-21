@@ -5,6 +5,8 @@ import './contact.css';
 import ReCAPTCHA from 'react-google-recaptcha';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faLocationDot, faGlobeAfrica } from '@fortawesome/free-solid-svg-icons';
 
 const SERVICE_ID = 'service_cxd54nh';
 const TEMPLATE_ID = 'template_jw0smhn';
@@ -53,7 +55,22 @@ const Contact = () => {
 
   return (
     <div className="Contact" style={{ backgroundColor: '#a1b7b0', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
-      <h1 style={{ color: 'black', textAlign: 'center', marginBottom: '80px' }}>Contact Me</h1>
+      <h1 style={{ color: 'black', textAlign: 'center', marginBottom: '15px' }}>Contact Me</h1>
+      <h3 style={{ color: '#df36eef0', marginBottom: '20px' }}>Have any questions? Get in touch</h3>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
+        <div style={{ marginRight: '20px' }}>
+          <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '5px' }} />
+          <span>nasiphigee@gmail.com</span>
+        </div>
+        <div style={{ marginRight: '20px' }}>
+          <FontAwesomeIcon icon={faLocationDot} style={{ marginRight: '5px' }} />
+          <span>Cape Town</span>
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faGlobeAfrica} style={{ marginRight: '5px' }} />
+          <span>Available to Freelance</span>
+        </div>
+      </div>
       <div style={{ width: '300px', padding: '20px', backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 0 10px rgba(223, 54, 238, 0.9)' }}>
         <Form onSubmit={handleOnSubmit}>
           <Form.Field
