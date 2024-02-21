@@ -1,34 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './contact.css';
-// Make sure to import emailjs and Swal correctly if not done elsewhere
+import ReCAPTCHA from 'react-google-recaptcha';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
-const SERVICE_ID = "service_cxd54nh";
-const TEMPLATE_ID = "template_jw0smhn";
-const USER_ID = "Kj7Uk0maFyOQUt4BZ";
+const SERVICE_ID = 'service_cxd54nh';
+const TEMPLATE_ID = 'template_jw0smhn';
+const USER_ID = 'Kj7Uk0maFyOQUt4BZ';
 
 const Contact = () => {
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+
+  const handleCaptchaChange = (value) => {
+    setIsCaptchaVerified(value !== null);
+  };
+
   const handleOnSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-      .then((result) => {
-        console.log(result.text);
-        Swal.fire({
-          icon: "success",
-          title: "Message Sent Successfully"
-        });
-      }, (error) => {
-        console.log(error.text);
-        Swal.fire({
-          icon: "error",
-          title: "Ooops, something went wrong",
-          text: error.text,
-        });
+
+    if (!isCaptchaVerified) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Please complete the reCAPTCHA challenge',
       });
-    e.target.reset(); // This should be inside handleOnSubmit
+      return;
+    }
+
+    emailjs
+      .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      .then(
+        (result) => {
+          console.log(result.text);
+          Swal.fire({
+            icon: 'success',
+            title: 'Message Sent Successfully',
+          });
+        },
+        (error) => {
+          console.log(error.text);
+          Swal.fire({
+            icon: 'error',
+            title: 'Ooops, something went wrong',
+            text: error.text,
+          });
+        }
+      );
+    e.target.reset();
+    setIsCaptchaVerified(false); // Reset captcha verification status after form submission
   };
 
   return (
@@ -64,9 +84,15 @@ const Contact = () => {
             placeholder='Message…'
             required
           />
-          <Button type='submit' color='green'>Submit</Button>
+          <Button type='submit' color='green' disabled={!isCaptchaVerified}>
+            Submit
+          </Button>
         </Form>
       </div>
+      <ReCAPTCHA
+        sitekey="6LeWfHopAAAAAGVTvvenBUlf2116LKiTXgovpU7J"
+        onChange={handleCaptchaChange}
+      />
     </div>
   );
 };

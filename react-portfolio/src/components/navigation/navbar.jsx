@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import $ from 'jquery';
 import "./navbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTachometerAlt, faAddressBook, faClone, faCalendarAlt, faChartBar } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHouseUser, faAddressBook, faBarsProgress, faLaptopCode, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 const Navigation = () => {
@@ -70,19 +70,19 @@ const Navigation = () => {
                 <ul className="navbar-nav ml-auto">
                     <div className="hori-selector"><div className="left"></div><div className="right"></div></div>
                     <li className="nav-item">
-                        <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faTachometerAlt} /> Home</a>
+                        <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faHouseUser} /> Home</a>
                     </li>
                     <li className="nav-item active">
                         <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faAddressBook} /> About</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faClone} /> Skills</a>
+                        <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faBarsProgress} /> Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faCalendarAlt} /> Projects</a>
+                        <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faLaptopCode} /> Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faChartBar} /> Get in Touch</a>
+                        <a className="nav-link" href="javascript:void(0);"><FontAwesomeIcon icon={faEnvelope} /> Get in Touch</a>
                     </li>
                 </ul>
             </div>
