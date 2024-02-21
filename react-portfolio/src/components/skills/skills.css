@@ -1,57 +1,34 @@
-/* Global styles */
-body {
-  margin: 0;
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif; /* Change to your preferred font */
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
 }
 
-/* Container styles */
-.skill {
-  display: flex;
-  justify-content: space-between;
-  background-color: #a1b7b0;
-  width: 1338px;
-  margin-top: 48px;
-  padding: 20px;
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
 }
 
-/* Progress Bar styles */
-.ms-progress-bar {
-  width: 10px;
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+  overflow: hidden; /* Ensure that the inner progress bar doesn't overflow */
 }
 
-.ms-progress-bar .ms-bar {
-  width: 0;
-  animation: fillAnimation 2s ease forwards;
-}
-
-/* Loader styles */
-/* Loader styles */
-.loader {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.loader div {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
-
-.python {
-  background-color: #3572A5; /* Python color */
-}
-
-.java {
-  background-color: #B07219; /* Java color */
-}
-
-.csharp {
-  background-color: #178600; /* C# color */
-}
-
-.nodejs {
-  background-color: #68A063; /* Node.js color */
+.skills .progress-bar {
+  height: 10px;
+  background-color: #149ddd;
+  transition: width 0.9s ease; /* Add a smooth transition to the width property */
+  width: 0; /* Initially set width to 0, it will be animated to the actual value */
 }

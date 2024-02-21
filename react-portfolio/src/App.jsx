@@ -7,15 +7,18 @@ import Projects from './components/Projects/project.jsx';
 import Contact from './components/contact/contact.jsx';
 import '@fortawesome/fontawesome-free/css/all.css';
 import 'semantic-ui-css/semantic.min.css';
+import './index.css'
+import 'react-waypoint';
 
 
 function App() {
   return (
     <><Navigation />
-      <Home />  <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <Home /> 
+       <About />
+       <Skills /> 
+       {/* <Projects />
+      <Contact />  */}
     </>
 
   )

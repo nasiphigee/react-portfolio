@@ -1,8 +1,13 @@
+body {
+  height: 100vh;
+}
+
+
 .home .div-2 {
   background-color: #a1b7b0;
   position: center;
   width: 1338px;
-  margin-top: 48px;
+  height: 100vh;
 }
 
 .home .overlap {
@@ -107,9 +112,12 @@
   top: 496px;
   width: 244px;
 }
+
 .home .button:hover {
-  background-color: #df36ee; /* Change color on hover */
-  box-shadow: 1px 11px 32px #7a00b7; /* Change box shadow on hover */
+  background-color: #df36ee;
+  /* Change color on hover */
+  box-shadow: 1px 11px 32px #7a00b7;
+  /* Change box shadow on hover */
 }
 
 .home .text-wrapper-4 {
@@ -145,8 +153,10 @@
   top: 496px;
   width: 244px;
 }
+
 .home .button-2:hover {
-  background-color: whitesmoke; /* Change color on hover */
+  background-color: whitesmoke;
+  /* Change color on hover */
   box-shadow: 1px 11px 32px #7a00b7;
 }
 
