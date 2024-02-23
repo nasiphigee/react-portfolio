@@ -1,8 +1,7 @@
 .skills {
   background-color: #a1b7b0;
-  position: center;
+  position: relative;
   height: 100vh;
-  width: 1338px;
 }
 .section-title h2 {
   font-size: 26px;
@@ -25,12 +24,13 @@
 }
 
 .skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-  margin-top: 10px;
+  height: 100px; /* Adjust the height of the progress bars */
+  display: flex;
+  align-items: center; /* Center content vertically within the progress bar */
+  text-align: center; /* Center text horizontally within the progress bar */
+  margin: 0 0 6px 0;
 }
+
 
 .skills .progress .skill {
   padding: 10px 0;
@@ -48,9 +48,10 @@
 }
 
 .skills .progress-bar-wrap {
+  flex: 1; /* Take up remaining space within the progress bar */
   background: #f3f3f3;
+  margin: 0 15px; /* Add margin for spacing between progress bars */
 }
-
 .skills .progress-bar {
   width: 1px;
   height: 10px;
@@ -62,12 +63,16 @@
 /* Additional styles for the two-column layout */
 .skills .row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 130px;
+  justify-content: center; /* Center the columns horizontally */
+  align-items: center; /* Center the columns vertically */
+  height: 100%; /* Make the row take up the full height of its container */
 }
+
 
 .skills .col-lg-6 {
   width: calc(50% - 12px); /* Adjust the width as needed, allowing for some space between columns */
-  margin-bottom: 20px; /* Adjust the margin as needed to separate rows */
+  margin-top: 80px; /* Adjust the margin as needed to separate rows */
+}
+.skills .col-lg-6 h3{
+  text-align: center;
 }

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Form, Input, TextArea, Button } from 'semantic-ui-react';
+import React from 'react';
+import { Form as SemanticForm, Input, TextArea, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './contact.css';
 import ReCAPTCHA from 'react-google-recaptcha';

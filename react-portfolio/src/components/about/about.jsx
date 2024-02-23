@@ -27,8 +27,8 @@ const About = () => {
           <div className="education-experience">
             <div className="education">
               <h3 className="resume-title">Education</h3>
-              <i className="fa-solid fa-calendar-days"></i>
               <div className="resume-item">
+              <i className="fa-solid fa-calendar-days"></i>
                 <h5>2014-2017</h5>
                 <h4>BSc in IT @ Richield Graduate Institute of technology</h4>
                 <p>
@@ -37,6 +37,7 @@ const About = () => {
                 </p>
               </div>
               <div className="resume-item">
+              <i className="fa-solid fa-calendar-days"></i>
                 <h5>2012-2013</h5>
                 <h4>Matric</h4>
                 <p>
@@ -51,6 +52,7 @@ const About = () => {
             <div className="professional-experience">
               <h3 className="resume-title">Professional Experience</h3>
               <div className="resume-item">
+              <i className="fa-solid fa-calendar-days"></i>
                 <h5>2024 - Present</h5>
                 <h4>Junior Software Developer @ ABSA</h4>
                 <p>
@@ -61,6 +63,7 @@ const About = () => {
                 </p>
               </div>
               <div className="resume-item">
+              <i className="fa-solid fa-calendar-days"></i>
                 <h5>2023-2024</h5>
                 <h4>Full Stack Dev Learnership @ Uvu Africa</h4>
                 <p>

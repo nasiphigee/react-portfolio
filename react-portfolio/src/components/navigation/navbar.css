@@ -209,12 +209,10 @@ body {
 	background-color: #5161ce;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	padding: 10px;
-	/* Add padding for better spacing */
 	position: fixed;
-	width: 1338px;
 	top: 0;
+	width: 100%;
 	z-index: 1000;
 	/* Ensure the navbar is on top of other elements */
 }

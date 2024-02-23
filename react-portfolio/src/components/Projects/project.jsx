@@ -3,10 +3,8 @@ import './project.css';
 
 const Projects = () => {
   return (
-    <div>
-    <h1 className="projects-heading">My Projects</h1>
     <div className="projects-container">
-      <div className="card">
+            <div className="card">
         <div className="card-inner">
           {/* Front Side */}
           <div className="card-front">
@@ -18,15 +16,13 @@ const Projects = () => {
 
           {/* Back Side */}
           <div className="card-back">
-            <p>
-              This website sells men's cloth products and helps men look their best.
-              </p>
+            <p> This application was meticulously crafted using Java to deliver 
+              precise and efficient tax and rebate calculations. Its robust functionalit ensures accuracy in 
+              financial computations, providing users with a reliable tool for navigating complex tax scenarios. </p>
               <a href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-github"></i> GitHub
+              <i className="fab fa-github"></i> 
                 </a>
-                <a href="https://discord.gg/your-discord-invite" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-discord"></i> Discord
-                  </a>
+                
           </div>
         </div>
       </div>
@@ -44,8 +40,12 @@ const Projects = () => {
           {/* Back Side */}
           <div className="card-back">
             <p>
-              Description of Project 2 goes here.
-            </p>
+            Introducing The First Knight's dynamic website – 
+            a bespoke platform meticulously designed to elevate actors to the spotlight.
+             Powered by HTML, CSS, and Javascript, this online hub seamlessly promotes our talented roster.</p>
+            <a href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i> 
+                </a>
           </div>
         </div>
       </div>
@@ -62,9 +62,12 @@ const Projects = () => {
 
           {/* Back Side */}
           <div className="card-back">
-            <p>
-              This website sells men's cloth products and helps men look their best.
-              </p>
+            <p>a dynamic showcase of my expertis crafted with HTML, CSS, and Javascript. 
+              Explore my projects with interactive features, discover my skills, and connect for opportunities. 
+              Responsive design ensures a seamless experience across devices.</p>
+            <a href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i> 
+                </a>
           </div>
         </div>
       </div>
@@ -80,9 +83,13 @@ const Projects = () => {
 
           {/* Back Side */}
           <div className="card-back">
-            <p>
-            Carrer guide website that was build using HTML,Css, JavaScript and Node JS for back end.
+            <p>Presenting a collaborative triumph – our Career Guide website seamlessly integrates HTML, 
+              CSS, JavaScript, and Node.js for a comprehensive user experience. With an innovative blend of 
+              technology, we've not only curated essential career resources but also introduced an engaging game and an events page.
               </p>
+              <a href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i> 
+                </a>
           </div>
         </div>
       </div>
@@ -98,9 +105,12 @@ const Projects = () => {
 
           {/* Back Side */}
           <div className="card-back">
-            <p>
-              This website sells men's cloth products and helps men look their best.
-              </p>
+         <p>Our cutting-edge Bank App, meticulously engineered using Python to redefine the banking experience. 
+         Designed with customer convenience in mind, this app provides seamless deposit and withdrawal functionalities, 
+         complemented by a detailed transaction log for impeccable financial tracking.</p>             
+          <a href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i> 
+                </a>
           </div>
         </div>
       </div>
@@ -116,13 +126,15 @@ const Projects = () => {
 
           {/* Back Side */}
           <div className="card-back">
-            <p>
-              This website sells men's cloth products and helps men look their best.
-              </p>
+            <p>his application, skillfully developed in Java, serves as a robust unit conversion tool. 
+              Specifically designed to enhance user convenience, it excels in seamlessly transforming units, 
+              exemplified by its ability to convert pounds to kilograms</p>
+              <a href="https://github.com/your-username/project1" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i> 
+                </a>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };
