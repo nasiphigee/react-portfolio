@@ -3,7 +3,7 @@ import "./home.css";
 
 export const Home = () => {
     return (
-        <div className="home">
+        <div id="home" className="home">
             <div className="div-2">
                 <div className="overlap">
                     <p className="hi-i-m-nasiphi-gwija">

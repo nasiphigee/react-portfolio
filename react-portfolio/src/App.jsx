@@ -7,8 +7,7 @@ import Projects from './components/Projects/project.jsx';
 import Contact from './components/contact/contact.jsx';
 import '@fortawesome/fontawesome-free/css/all.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Waypoint } from 'react-waypoint';
-
+import { BrowserRouter as Router } from 'react-router-dom';  // Corrected import
 
 import './index.css'
 import 'react-waypoint';
@@ -16,14 +15,15 @@ import 'react-waypoint';
 
 function App() {
   return (
-    <><Navigation />
-      <Home /> 
-       <About />
-       <Skills /> 
-       <Projects />
-       {/*<Contact />  */}
-    </>
-
+    <Router>
+      <><Navigation />
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />  
+      </>
+    </Router>
   )
 }
 

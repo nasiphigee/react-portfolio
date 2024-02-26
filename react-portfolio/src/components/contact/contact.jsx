@@ -1,5 +1,5 @@
-import React from 'react';
-import { Form as SemanticForm, Input, TextArea, Button } from 'semantic-ui-react';
+import React, {useState} from 'react';
+import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './contact.css';
 import ReCAPTCHA from 'react-google-recaptcha';
@@ -54,7 +54,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="Contact" style={{ backgroundColor: '#a1b7b0', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
+    <div id="contact" className="Contact" style={{ backgroundColor: '#a1b7b0', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
       <h1 style={{ color: 'black', textAlign: 'center', marginBottom: '15px' }}>Contact Me</h1>
       <h3 style={{ color: '#df36eef0', marginBottom: '20px' }}>Have any questions? Get in touch</h3>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
