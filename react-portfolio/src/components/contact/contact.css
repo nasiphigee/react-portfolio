@@ -1,11 +1,10 @@
-
-.contact{
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 1338px;
   margin: 0;
-  background-color:#a1b7b0 ;
+  background-color: #a1b7b0;
 }
 
 .form {
@@ -14,5 +13,19 @@
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(223, 54, 238, 0.9);
+}
+
+@media screen and (max-width: 768px) {
+  .Contact {
+    background-color: rgb(161, 183, 176);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: -1200px;
+    margin-top: 898px;
   
+  }
 }

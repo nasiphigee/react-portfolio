@@ -4,6 +4,7 @@ import "./about.css";
 const About = () => {
   return (
     <div id="about" className="about">
+        <h3 className="resume-title">About Me</h3>
       <div className="img-container">
         <img
           className="img-about"
@@ -12,7 +13,7 @@ const About = () => {
         />
       </div>
       <div className="overlap-2">
-        <h3 className="resume-title">About Me</h3>
+      
         <div className="resume-item pb-0">
           <h4>I'm Nasiphi Gwija</h4>
           <p>

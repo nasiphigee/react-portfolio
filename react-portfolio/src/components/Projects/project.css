@@ -88,3 +88,19 @@
 .card-links a:hover {
   text-decoration: underline; /* Underline on hover */
 }
+
+@media screen and (max-width: 768px) {
+  .projects-container {
+    display: flow;
+    padding-left: 5.2rem;
+    margin-top: 300px;
+}
+    .card {
+      width: calc(20% - 5px);
+      margin-top: 0px;
+    }
+    .card:nth-child(1n + 1) {
+      margin-right: 20px; /* Add spacing between cards in the same row */
+    }
+    
+}
