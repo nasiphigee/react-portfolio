@@ -5,28 +5,45 @@
   position: center;
   height: 100vh;
   position: relative;
-  margin-top: -7px;
+  margin-top: 70px;
+}
+.resume-title h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #040404;
+  text-align: center;
+  position: relative;
 }
 
+.resume-title h3::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  background-color: #df36eee6;
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+  transform: translateX(-50%);
+}
 .overlap-2 {
-  margin-right: 117px;
+  margin-right: 150px;
 }
 
 .img-container {
   background: white;
   border-radius: 4px 0px 0px 234px;
   box-shadow: 0px 4px 30px #df36eed4;
-  height: 450px;
-  width: 350px;
-  margin-top: 89px;
-  margin-left: 50px;
+  height: 350px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 130px;
 
 }
-
 .img-about {
-  height: 40vh;
-  margin-left: 25px;
-  border-radius: 0px 115px 34px
+  height: 42vh;
+  margin-left: -10px;
+  border-radius: 0px 115px 50px
 }
 
 .overlap-2 {
@@ -37,9 +54,10 @@
 .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 0; /* Adjust margin-top as needed */
   margin-bottom: 20px;
   color: #040404;
+  text-align: center; /* Add this line to center align text */
 }
 
 .resume-item {

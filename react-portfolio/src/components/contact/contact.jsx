@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './contact.css';
@@ -71,7 +71,7 @@ const Contact = () => {
           <span>Available to Freelance</span>
         </div>
       </div>
-      <div style={{ width: '300px', padding: '20px', backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 0 10px rgba(223, 54, 238, 0.9)' }}>
+      <div style={{ width: '800px', padding: '20px', backgroundColor: '#fff', marginTop: '40px', borderRadius: '8px', boxShadow: '0 0 10px rgba(223, 54, 238, 0.9)' }}>
         <Form onSubmit={handleOnSubmit}>
           <Form.Field
             id='form-input-control-email'
@@ -106,10 +106,12 @@ const Contact = () => {
           </Button>
         </Form>
       </div>
-      <ReCAPTCHA
-        sitekey="6LeWfHopAAAAAGVTvvenBUlf2116LKiTXgovpU7J"
-        onChange={handleCaptchaChange}
-      />
+    <div className='captcha'>
+    <ReCAPTCHA
+      sitekey="6LeWfHopAAAAAGVTvvenBUlf2116LKiTXgovpU7J"
+      onChange={handleCaptchaChange}
+    />
+    </div>
     </div>
   );
 };

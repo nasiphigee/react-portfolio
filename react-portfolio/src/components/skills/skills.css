@@ -16,11 +16,8 @@
   content: "";
   display: block;
   width: 48px;
-  /* Adjust the width of the underline */
   height: 4px;
-  /* Adjust the height of the underline */
   background-color: #df36eee6;
-  /* Pink color */
   position: absolute;
   bottom: 0;
   left: 49%;
@@ -29,13 +26,12 @@
 
 .skills .progress {
   height: 100px;
-  /* Adjust the height of the progress bars */
   display: flex;
   align-items: center;
-  /* Center content vertically within the progress bar */
   text-align: center;
-  /* Center text horizontally within the progress bar */
   margin: 0 0 6px 0;
+  margin-right: 9em;
+  margin-left: 3em;
 }
 
 
@@ -56,10 +52,9 @@
 
 .skills .progress-bar-wrap {
   flex: 1;
-  /* Take up remaining space within the progress bar */
   background: #f3f3f3;
   margin: 0 15px;
-  /* Add margin for spacing between progress bars */
+ 
 }
 
 .skills .progress-bar {

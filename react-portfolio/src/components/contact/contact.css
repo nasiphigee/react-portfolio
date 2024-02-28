@@ -8,11 +8,13 @@
 }
 
 .form {
-  width: 300px;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(223, 54, 238, 0.9);
+}
+.captcha {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {

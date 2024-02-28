@@ -4,8 +4,9 @@ import "./about.css";
 const About = () => {
   return (
     <div id="about" className="about">
-        <h3 className="resume-title">About Me</h3>
-      <div className="img-container">
+  <h3 style={{ fontSize: '26px', fontWeight: '700', textAlign: 'center', marginTop: '30px', marginBottom: '20px',
+   color: '#040404', position: 'absolute', top: '-12%',marginLeft: '500px'}} className="resume-title">About Me</h3>
+     <div className="img-container">
         <img
           className="img-about"
           alt="Nasiphi"
