@@ -97,10 +97,11 @@
     padding-left: 5.2rem;
     margin-top: 300px;
 }
-    .card {
-      width: calc(20% - 5px);
-      margin-top: 0px;
-    }
+.card {
+  margin-left: -6em;
+  width: calc(20% - -79px);
+  margin-top: 46px;
+}
     .card:nth-child(1n + 1) {
       margin-right: 20px; /* Add spacing between cards in the same row */
     }

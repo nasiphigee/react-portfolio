@@ -296,9 +296,11 @@ body {
 		display: block;
 		/* Show the hamburger for small screens */
 	}
+	
 }
 @keyframes spin {
 	100% {
 	  transform: rotate(360deg);
 	}
+	
   }

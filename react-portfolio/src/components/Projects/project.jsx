@@ -1,17 +1,24 @@
 import React from 'react';
 import './project.css';
+import taxcal from "/src/assets/images/taxcal.jpg";
+import firstknight from "/src/assets/images/firstknight.png";
+import portfolio from "/src/assets/images/portfolio.png";
+import fivestars from "/src/assets/images/fivestars.png";
+import bank from "/src/assets/images/bank.jpeg";
+import conveter from "/src/assets/images/conveter.jpeg";
 
 const Projects = () => {
   return (
+    <div id="projects" className="projects-name">
+    <h3>My Projects</h3>
     <div id="projects" className="projects-container">
             <div className="card">
         <div className="card-inner">
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="/src/assets/images/taxcal.jpg"
-              alt="Project Image"
-            />
+               src={taxcal} alt="Tax calculator" />
+  
           </div>
 
           {/* Back Side */}
@@ -32,9 +39,8 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="src/assets/images/FirstKnight.png"
-              alt="Project Image"
-            />
+             src={firstknight} alt="The First Knight Web" />
+
           </div>
 
           {/* Back Side */}
@@ -55,9 +61,8 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="src/assets/images/Portfolio.png"
-              alt="Project Image"
-            />
+            src={portfolio} alt="My Portfolio" />
+
           </div>
 
           {/* Back Side */}
@@ -76,9 +81,7 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="src/assets/images/5Stars.png"
-              alt="Project Image"
-            />
+            src={fivestars} alt="Carrer Guide" />
           </div>
 
           {/* Back Side */}
@@ -98,9 +101,7 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="src/assets/images/bank.jpeg"
-              alt="Project Image"
-            />
+            src={bank} alt="bankingapp" />
           </div>
 
           {/* Back Side */}
@@ -119,9 +120,7 @@ const Projects = () => {
           {/* Front Side */}
           <div className="card-front">
             <img
-              src="src/assets/images/conveter.jpeg"
-              alt="Project Image"
-            />
+          src={conveter} alt="Conveter matrics" />
           </div>
 
           {/* Back Side */}
@@ -135,6 +134,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

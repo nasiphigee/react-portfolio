@@ -188,6 +188,7 @@ body {
 @media screen and (max-width: 768px) {
   .home{
     margin-bottom: -34px;
+    width: fit-content;
   }
   .home .hi-i-m-nasiphi-gwija {
     font-size: 19px;

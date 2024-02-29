@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import aboutme from "/src/assets/images/aboutme.png"; // Adjust the path based on your folder structure
 
 const About = () => {
   return (
@@ -9,9 +10,7 @@ const About = () => {
      <div className="img-container">
         <img
           className="img-about"
-          alt="Nasiphi"
-          src="./src/assets/images/AboutMe.png"
-        />
+          src={aboutme} alt="nasiphi" />
       </div>
       <div className="overlap-2">
       
