@@ -26,8 +26,25 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-left: -1200px;
+    margin-left: -657px;
     margin-top: 898px;
+    
   
   }
+  .form{
+    width: 310px;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: rgba(223, 54, 238, 0.9) 0px 0px 10px;
+    margin-right: -5em;
 }
+.FontAwesomeIcon{
+  display: flex;
+  margin-right: -6em;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: x-small;
+}
+  }
