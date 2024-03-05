@@ -31,7 +31,7 @@
   text-align: center;
   margin: 0 0 6px 0;
   margin-right: 9em;
-  margin-left: 3em;
+  margin-left: 5em;
 }
 
 
@@ -94,6 +94,55 @@
     background-color: #a1b7b0;
 
   }
+  .skills .progress {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 -23px 0;
+    margin-right: 3em;
+    margin-left: 1em;
+}
+.skills .col-lg-6 h3 {
+  text-align: center;
+  margin-left: -55px;
+  font-size: medium;
+}
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: none;
+  display: block;
+  font-size: small;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+  .section-title h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #040404;
+    margin-left: 150px;
+    top: -295px;
+    position: relative;
+}
+.section-title h2::after {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 4px;
+  background-color: #df36eee6;
+  position: absolute;
+  bottom: -2px;
+  left: 1%;
+  transform: translateX(-50%);
+}
+.skills .row {
+  display: block;
+  margin-top: -250px;
+}
+}
 
   .skills .col-lg-6 {
     order: 2; /* Change the order for smaller screens */
@@ -112,8 +161,3 @@
     background-color: #a1b7b0;
 
   }
-
-  .skills .row {
-    display: block; /* Change to block layout */
-  }
-}
