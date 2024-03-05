@@ -5,7 +5,7 @@ import firstknight from "/src/assets/images/firstknight.png";
 import portfolio from "/src/assets/images/portfolio.png";
 import fivestars from "/src/assets/images/fivestars.png";
 import bank from "/src/assets/images/bank.jpeg";
-import conveter from "/src/assets/images/conveter.jpeg";
+import conveter from "../../assets/images/conveter.jpeg";
 
 const Projects = () => {
   return (
