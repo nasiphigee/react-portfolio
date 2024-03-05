@@ -12,18 +12,23 @@
   margin-left: 3em;
 }
 
-.projects-heading::after {
+.projects-name h3 {
+  margin-left: 570px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #040404;
+}
+.projects-name h3::after {
   content: "";
   display: block;
-  width: 50px; /* Adjust the width of the line */
-  height: 5px; /* Adjust the thickness of the line */
-  background-color: #df36eee6; /* Pink color */
-  margin: 0 auto; /* Center the line under the heading */
-  margin-top: 5px; 
-  left: 0;
-  margin-left: 70px;/* Adjust the distance between the text and the line */
-}
-
+  width: 48px;
+  height: 4px;
+  background-color: #df36eee6;
+  position: absolute;
+  bottom:-1685px ;
+  left: 41%;
+  transform: translateX(-50%);
+} 
 .card {
   width: calc(33.333% - 20px);
   height: 230px;

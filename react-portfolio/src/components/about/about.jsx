@@ -5,8 +5,7 @@ import aboutme from "/src/assets/images/aboutme.png"; // Adjust the path based o
 const About = () => {
   return (
     <div id="about" className="about">
-  <h3 style={{ fontSize: '26px', fontWeight: '700', textAlign: 'center', marginTop: '30px', marginBottom: '20px',
-   color: '#040404', position: 'absolute', top: '-12%',marginLeft: '500px'}} className="resume-title">About Me</h3>
+  <h3>About Me</h3>
      <div className="img-container">
         <img
           className="img-about"
@@ -27,7 +26,7 @@ const About = () => {
           </p>
           <div className="education-experience">
             <div className="education">
-              <h3 className="resume-title">Education</h3>
+              <h4 className="resume-title">Education</h4>
               <div className="resume-item">
               <i className="fa-solid fa-calendar-days"></i>
                 <h5>2014-2017</h5>
@@ -51,7 +50,7 @@ const About = () => {
               </div>
             </div>
             <div className="professional-experience">
-              <h3 className="resume-title">Professional Experience</h3>
+              <h4 className="resume-title">Professional Experience</h4>
               <div className="resume-item">
               <i className="fa-solid fa-calendar-days"></i>
                 <h5>2024 - Present</h5>

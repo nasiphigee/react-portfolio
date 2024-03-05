@@ -54,10 +54,10 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="Contact" style={{ backgroundColor: '#a1b7b0', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
-      <h1 style={{ color: 'black', textAlign: 'center', marginBottom: '15px' }}>Contact Me</h1>
-      <h3 style={{ color: '#df36eef0', marginBottom: '20px' }}>Have any questions? Get in touch</h3>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
+    <div id="contact" className="Contact" style={{ backgroundColor: '#a1b7b0', minHeight: '100vh', display: 'flex', flexDirection: 'column', marginLeft: '-155px', alignItems: 'center', padding: '20px' }}>
+      <h1 style={{ color: 'black',  marginLeft: '105px', marginBottom: '10px' }}>Contact Me</h1>
+      <h3 style={{ color: '#df36eef0', marginBottom: '20px', marginLeft: '120px' }}>Have any questions? Get in touch</h3>
+      <div style={{ display: 'flex', marginLeft: '100px', marginBottom: '20px' }}>
         <div style={{ marginRight: '20px' }}>
           <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '5px' }} />
           <span>nasiphigee@gmail.com</span>
@@ -71,7 +71,7 @@ const Contact = () => {
           <span>Available to Freelance</span>
         </div>
       </div>
-      <div style={{ width: '800px', padding: '20px', backgroundColor: '#fff', marginTop: '40px', borderRadius: '8px', boxShadow: '0 0 10px rgba(223, 54, 238, 0.9)' }}>
+      <div style={{ width: '800px', padding: '20px', backgroundColor: '#fff', marginTop: '40px',marginRight: '-100px', borderRadius: '8px', boxShadow: '0 0 10px rgba(223, 54, 238, 0.9)' }}>
         <Form onSubmit={handleOnSubmit}>
           <Form.Field
             id='form-input-control-email'

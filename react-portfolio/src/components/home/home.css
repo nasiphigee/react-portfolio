@@ -192,6 +192,7 @@ body {
   }
   .home .hi-i-m-nasiphi-gwija {
     font-size: 19px;
+    left:17px ;
   }
 
   .span p {
@@ -208,7 +209,7 @@ body {
 
   .home .rectangle-3 {
     height: 2px;
-    left: 5px;
+    left: 15px;
     top: -49px;
     width: 16px;
   }
@@ -218,7 +219,7 @@ body {
     font-family: "Inter", Helvetica;
     font-size: 12px;
     font-weight: 400;
-    left: 10px;
+    left: 24px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -231,7 +232,7 @@ body {
     left: 0;
     top: 0;
     width: 156px;
-    margin-left: -554px;
+    margin-left: -541px;
   }
 
   .home .home-img {
@@ -241,7 +242,7 @@ body {
     top: -4px;
     width: 140px;
     border-radius: 13px 0px 0px 241px;
-    left: -558px;
+    left: -541px;
   }
 
   .home .button-2 {
@@ -253,23 +254,21 @@ body {
     border-radius: 9px;
     box-shadow: 1px 11px 33px #9747ff;
     box-sizing: border-box;
-    /* display: flex; */
     gap: 10px;
     height: 41px;
     justify-content: center;
-    left: 10px;
+    left: 27px;
     overflow: hidden;
-    padding: 6px 32px 34px;
+    padding: 22px 13px 6px;
     position: absolute;
-    top: 372px;
-    width: 136px;
+    top: 369px;
+    width: 125px;
   }
 
   .home .text-wrapper-4 {
     color: #000000;
     font-family: "Inter", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
     letter-spacing: 0;
     line-height: normal;
     margin-bottom: -12px;
@@ -287,28 +286,26 @@ body {
     box-sizing: border-box;
     display: flex;
     gap: 10px;
-    height: 41px;
+    height: 40px;
     justify-content: center;
-    left: 10px;
+    left: 27px;
     overflow: hidden;
-    padding: 26px 13px 6px;
+    padding: 22px 13px 6px;
     position: absolute;
-    top: 315px;
-    width: 132px;
+    top: 313px;
+    width: 125px;
   }
 
   .home .text-wrapper-5 {
     color: #000000;
     font-family: "Inter", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
     letter-spacing: 0;
     line-height: normal;
-    margin-bottom: -32px;
-    margin-left: -27px;
-    margin-right: -23px;
-    margin-top: 3px;
-    position: absolute;
+    margin-bottom: -11px;
+    margin-top: -17px;
+    position: relative;
+    width: fit-content;
   }
 
   .home .overlap-2 {
