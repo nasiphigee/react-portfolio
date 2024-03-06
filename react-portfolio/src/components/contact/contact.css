@@ -9,13 +9,58 @@
 
 .form {
   padding: 20px;
+  width: 500px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(223, 54, 238, 0.9);
 }
-.captcha {
-  margin-top: 20px;
+
+#contact {
+  background-color: #a1b7b0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: -155px;
+  align-items: center;
+  padding: 20px;
 }
+
+#contact h1 {
+  color: black;
+  margin-left: 105px;
+  margin-bottom: 10px;
+}
+
+#contact h3 {
+  color: #df36eef0;
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+
+#contact > div {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+#contact > div > div {
+  margin-right: 20px;
+}
+
+#contact .info {
+  width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 40px;
+  margin-right: -100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(223, 54, 238, 0.9);
+}
+
+.captcha {
+  margin-top: 5px;
+}
+
 
 @media screen and (max-width: 768px) {
   .Contact {
@@ -31,14 +76,44 @@
     
   
   }
-  .form{
-    width: 310px;
-    padding: 25px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 40px;
-    border-radius: 8px;
-    box-shadow: rgba(223, 54, 238, 0.9) 0px 0px 10px;
-    margin-right: -5em;
+  #contact h1 {
+    color: black;
+    margin-left: -1002px;
+    font-size: large;
+    margin-bottom: 10px;
+    margin-top: -221px;
+}
+#contact h3 {
+  color: #df36eef0;
+  margin-bottom: 20px;
+  font-size: medium;
+  margin-left: -987px;
+}
+#contact > div {
+  display: flex;
+  margin-left: -958px;
+  margin-bottom: 50px;
+}
+#contact > div > div {
+  margin-right: 14px;
+  font-size: smaller;
+}
+#contact > div {
+  display: flex;
+  margin-left: -958px;
+  margin-bottom: 52px;
+  font-size: small;
+}
+.form {
+  width: 373px;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+  margin-top: -12px;
+  border-radius: 8px;
+  box-shadow: rgba(223, 54, 238, 0.9) 0px 0px 10px;
+  margin-right: -5em;
+  margin-left: 0em;
+}
 }
 .FontAwesomeIcon{
   display: flex;
@@ -47,4 +122,7 @@
   margin-bottom: 20px;
   font-size: x-small;
 }
-  }
+.captcha {
+  margin-top: -28px;
+}
+  

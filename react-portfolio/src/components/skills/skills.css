@@ -29,9 +29,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 0 0 6px 0;
-  margin-right: 9em;
-  margin-left: 5em;
+  margin: 0 0 0px 0;
 }
 
 
@@ -65,27 +63,22 @@
   box-shadow: #df36eee6;
 }
 
-/* Additional styles for the two-column layout */
 .skills .row {
   display: flex;
   justify-content: center;
-  /* Center the columns horizontally */
   align-items: center;
-  /* Center the columns vertically */
   height: 100%;
-  /* Make the row take up the full height of its container */
 }
 
 
 .skills .col-lg-6 {
   width: calc(50% - 12px);
-  /* Adjust the width as needed, allowing for some space between columns */
   margin-top: 80px;
-  /* Adjust the margin as needed to separate rows */
 }
 
 .skills .col-lg-6 h3 {
-  text-align: center;
+  margin-left: 50px;
+  margin-top: 90px;
 }
 
 @media screen and (max-width: 768px) {
