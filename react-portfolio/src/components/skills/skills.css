@@ -87,6 +87,11 @@
     background-color: #a1b7b0;
 
   }
+  .skills {
+    background-color: #a1b7b0;
+    position: relative;
+    height: 71vh;
+}
   .skills .progress {
     height: 100px;
     display: flex;
@@ -133,7 +138,7 @@
 }
 .skills .row {
   display: block;
-  margin-top: -250px;
+  margin-top: -349px;
 }
 }
 

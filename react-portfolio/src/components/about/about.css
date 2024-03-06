@@ -172,3 +172,8 @@ body {
     width: 300px;
   }
 }
+@media screen and (max-width: 400px) {
+  .overlap-2 {
+      width: 27%;
+  }
+  }

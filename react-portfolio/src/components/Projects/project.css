@@ -9,6 +9,7 @@
   margin-top: -3px;
   margin-right: 9em;
   margin-left: 3em;
+ 
 }
 
 .projects-name h3 {
@@ -123,7 +124,7 @@
     height: 4px;
     background-color: #df36eee6;
     position: absolute;
-    bottom: -2547px;
+    bottom: -2300px;
     left: 39%;
     transform: translateX(-50%);
   }

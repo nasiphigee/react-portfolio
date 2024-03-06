@@ -269,6 +269,12 @@ body {
 		z-index: 999;
 	}
 
+	@media (max-width: 600px) {
+		.navbar {
+			width: 100%;
+		}
+	}
+
 	.navbar-collapse.show {
 		display: flex;
 	}
@@ -298,6 +304,7 @@ body {
 	}
 	
 }
+
 @keyframes spin {
 	100% {
 	  transform: rotate(360deg);
