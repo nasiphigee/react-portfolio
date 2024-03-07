@@ -1,6 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./home.css";
-
+const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 export const Home = () => {
     return (
         <div id="home" className="home">
@@ -33,7 +39,9 @@ export const Home = () => {
                     <div className="text-wrapper-4">Download CV</div>
                 </button>
                 <button className="button-2">
+                <Link className="nav-link" to="/projects" onClick={() => scrollToSection("projects")}>
                     <div className="text-wrapper-5">See My Projects</div>
+    </Link>
                 </button>
 
             </div>

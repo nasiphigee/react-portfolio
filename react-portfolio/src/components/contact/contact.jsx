@@ -56,18 +56,32 @@ const Contact = () => {
   return (
     <div id="contact" className="Contact">
       <h1>Contact Me</h1>
-      <h3>Have any questions? Get in touch</h3>
       <div>
         <div>
-          <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '5px' }} />
-          <span>nasiphigee@gmail.com</span>
+        <div class="loader1"></div>          
+        <span>nasiphigee@gmail.com</span>
         </div>
         <div style={{ marginRight: '20px' }}>
-          <FontAwesomeIcon icon={faLocationDot} style={{ marginRight: '5px' }} />
+        <div class="loader"></div>
           <span>Cape Town</span>
         </div>
         <div>
-          <FontAwesomeIcon icon={faGlobeAfrica} style={{ marginRight: '5px' }} />
+        <div id="wifi-loader">
+    <svg class="circle-outer" viewBox="0 0 86 86">
+        <circle class="back" cx="43" cy="43" r="40"></circle>
+        <circle class="front" cx="43" cy="43" r="40"></circle>
+        <circle class="new" cx="43" cy="43" r="40"></circle>
+    </svg>
+    <svg class="circle-middle" viewBox="0 0 60 60">
+        <circle class="back" cx="30" cy="30" r="27"></circle>
+        <circle class="front" cx="30" cy="30" r="27"></circle>
+    </svg>
+    <svg class="circle-inner" viewBox="0 0 34 34">
+        <circle class="back" cx="17" cy="17" r="14"></circle>
+        <circle class="front" cx="17" cy="17" r="14"></circle>
+    </svg>
+    <div class="text" data-text=""></div>
+</div>
           <span>Available to Freelance</span>
         </div>
       </div>
