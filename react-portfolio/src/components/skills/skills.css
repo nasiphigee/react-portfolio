@@ -8,7 +8,7 @@
   font-size: 26px;
   font-weight: 700;
   color: #040404;
-  margin-left: 570px;
+  text-align: center;
   position: relative;
 }
 
@@ -20,7 +20,7 @@
   background-color: #df36eee6;
   position: absolute;
   bottom: 0;
-  left: 2%;
+  left: 49%;
   transform: translateX(-50%);
 }
 
@@ -29,7 +29,9 @@
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 0 0 0px 0;
+  margin: 0 0 6px 0;
+  margin-right: 9em;
+  margin-left: 3em;
 }
 
 
@@ -77,8 +79,7 @@
 }
 
 .skills .col-lg-6 h3 {
-  margin-left: 50px;
-  margin-top: 90px;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -87,64 +88,10 @@
     background-color: #a1b7b0;
 
   }
-  .skills {
-    background-color: #a1b7b0;
-    position: relative;
-    height: 71vh;
-}
-  .skills .progress {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 0 0 -23px 0;
-    margin-right: 3em;
-    margin-left: 1em;
-}
-.skills .col-lg-6 h3 {
-  text-align: center;
-  margin-left: -55px;
-  font-size: medium;
-}
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: none;
-  display: block;
-  font-size: small;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #222222;
-}
-
-  .section-title h2 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #040404;
-    margin-left: 150px;
-    top: -295px;
-    position: relative;
-}
-.section-title h2::after {
-  content: "";
-  display: block;
-  width: 34px;
-  height: 4px;
-  background-color: #df36eee6;
-  position: absolute;
-  bottom: -2px;
-  left: 1%;
-  transform: translateX(-50%);
-}
-.skills .row {
-  display: block;
-  margin-top: -349px;
-}
-}
 
   .skills .col-lg-6 {
     order: 2; /* Change the order for smaller screens */
-    margin-top: 0; /* Remove margin between sections for small screens */
+    margin-top: -289; /* Remove margin between sections for small screens */
     width: 25%; /* Adjust the width for small screens */
     margin-left: 1.2rem;
     margin-right: 0rem;
@@ -159,3 +106,28 @@
     background-color: #a1b7b0;
 
   }
+
+  .skills .row {
+    display: block; /* Change to block layout */
+  }
+  .section-title h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #040404;
+    text-align: center;
+    position: relative;
+    top: -320px;
+    right: 590px;
+}
+.section-title h2::after {
+  content: "";
+  display: block;
+  width: 31px;
+  height: 4px;
+  background-color: #df36eee6;
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+  transform: translateX(-50%);
+}
+}
