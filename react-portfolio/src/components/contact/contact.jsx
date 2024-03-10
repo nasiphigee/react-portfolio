@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './contact.css';
-import ReCAPTCHA from 'react-google-recaptcha';
-import emailjs from 'emailjs-com';
+import ReCAPTCHA from "react-google-recaptcha";
 import Swal from 'sweetalert2';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faLocationDot, faGlobeAfrica } from '@fortawesome/free-solid-svg-icons';
+import emailjs from "emailjs-com";
+
 
 const SERVICE_ID = 'service_cxd54nh';
 const TEMPLATE_ID = 'template_jw0smhn';
